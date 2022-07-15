@@ -1,0 +1,30 @@
+.site-wrapper{
+    display: grid;
+
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-areas: 
+    "h h"
+    "n c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /* grid-gap: 10px; */
+} 
+
+
+.app-wrapper-content{
+    grid-area: c;
+    background: #00e3ff;
+  }
+
+.aaa{
+    opacity: 0;
+} 
+
+.input {
+    z-index: 999;
+    position: absolute;
+    top: 4px;
+    left: 250px;
+}
+
